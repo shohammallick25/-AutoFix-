@@ -11,7 +11,11 @@
   -->
   <title>Shoham || Autofix - Auto Maintenance & Repair Service</title>
   <meta name="title" content="Shoham || Autofix - Auto Maintenance & Repair Service">
-  <meta name="description" content="This is a vehicle repair html template made by Shoham">
+  <meta name="description" content="This is a vehicle repair website made by Shoham">
+
+ <link rel="manifest" href="./manifest.json">
+
+
 
   <!-- 
     - favicon
@@ -553,6 +557,14 @@ Your satisfaction and vehicle’s performance are our top priorities.
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+
+  <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js')
+    .then(() => console.log('Service Worker Registered'));
+}
+</script>
+
 
 </body>
 
