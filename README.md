@@ -1,4 +1,6 @@
 # AutoFix 🚗🔧
+![image](https://github.com/user-attachments/assets/e9296baa-d4f9-4646-b750-8a75322ac3f3)
+
 
 **AutoFix** is a modern and responsive auto maintenance and repair service website.  
 We provide reliable, convenient, and expert auto services to keep your vehicle running smoothly and safely — anytime you need us.
